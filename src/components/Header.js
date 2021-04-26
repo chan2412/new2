@@ -13,9 +13,9 @@ class Header1 extends Component {
       <Menu theme="dark" className="he" mode="horizontal" 
       defaultSelectedKeys={[this.props.children]}
       >
-        <Menu.Item key='1'><Link to="/">Home</Link></Menu.Item>
-        <Menu.Item key='2'><Link to="/About">About</Link></Menu.Item>
-        <Menu.Item key='3'><Link to="/Contact">Contact</Link></Menu.Item>
+        <Menu.Item key='1'><Link to="/new2">Home</Link></Menu.Item>
+        <Menu.Item key='2'><Link to="/new2/About">About</Link></Menu.Item>
+        <Menu.Item key='3'><Link to="/new2/Contact">Contact</Link></Menu.Item>
       </Menu>
     </Header>
 </div>
