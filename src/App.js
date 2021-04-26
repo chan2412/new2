@@ -1,35 +1,23 @@
-import React, { Component } from 'react';
-import {Input} from 'antd';
-import { Layout} from 'antd';
-import "antd/dist/antd.min.css";
-import './App.css';
-const { Header, Content, Footer } = Layout;
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import About from './components/About';
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Layout className="layout">
-    <Header>
-      <div className="logo" />
-      <center><h1><font color="white">Chan</font></h1></center>
-    </Header>
-    <Content style={{ padding: '0 50px',minHeight:"480px" }}>
-      <center>
-    <div className="box">
-          <label>Username:</label>
-          <Input></Input>
-          <br/>
-          <label>Password:</label>
-          <Input></Input>
-          </div>
-          </center>
-    </Content>
-    <Footer style={{ textAlign: 'center' }}> Created by Chan</Footer>
-  </Layout>
-      </div>
-    );
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home} ></Route>
+            <Route path="/new2" component={Home} ></Route>
+            <Route path="/About" component={About} ></Route>
+            <Route path="/Contact" component={Contact}></Route>
+          </Switch>
+        </div> 
+      </Router>
+    )
   }
 }
-
 export default App;
