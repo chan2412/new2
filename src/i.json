@@ -1,0 +1,112 @@
+{
+  "Question":["A ______________ is a document or resource of infonnation that is suitable for the World Wide Web and can be accessed through a web browser","A _______________ collection of pages on the World Wide Web that are accessible from the same URL and typically residing on the same server","_____________ is the unique address which identifies a resource on the Internet for routing purposes","_____________ is the most prevalent model for distributed computing protocols","A ______________ running on a server host, provides access to a service","____________makes information constantly and instantly available to anyone with a connection","__________ are agreed formats for transmitting data between devices","The protocol determines, the way the end of a message is ___________.","__________ specifies the addressing details for each packet.","The _________________ was developed by Tito Berners-Lee in 1991.","The ___________ connects and requests a page from the server","The ________ reads the page from the file system, sends it to the client and terminates the connection","_______ uses the client/server model","Simple Mail Transfer Protocol is ___________","_______________comprises software (Web server and browser) and data (Web sites)","___________ transfers hypertext requests and information between servers and browsers","The ____________ reads the page from the file system and sends it to the client and then terminates the connection","In response __________  is meant to be human-readable","_________ for queries that can be safely repeated","The ________ request message has a content body that is normally used to send parameters and data","Which among the following regular expression specifies that password should contain at least one capital letter or one digit.","What will be the output of the following JavaScript code?\nfunction counth2()
+{  
+    var totalh2=document.getElementsByTagName("h2");  
+    alert("totalh2.length);  
+}  
+<h2>hello</h2>  
+<h2>hello</h2>
+","Which is the method that removes the current document from the browsing history before loading the new document?","What will be the output of the following JavaScript code?\n<p id="Element">Head</p>
+function myFunction() 
+{
+   var x = document.getElementsByTagName("P").namedItem("Element");
+   alert(x.innerHTML);
+}
+","Which of the following string will match the RegEx ","Consider the following JavaScript statement containing regular expressions and check if the pattern matches?\nvar text = "lestfindcourse: 1, 2, 3";
+var pattern = /d+/g;
+
+","What would be the result of the following statement in JavaScript using regular expression methods?","What will be the output of the following JavaScript code?\nSystem.out.println( Pattern.matches("[lfc]", "lets") );
+","What will be the output of the following JavaScript code?\nSystem.out.println( Pattern.matches("[lfc]?", "l") );
+","What will be the output of the following JavaScript code?\nSystem.out.println( Pattern.matches("\d", "9") );
+","What will be the output of the following JavaScript code?\nfunction myfun()
+{
+document.getElementById ("demo").innerHTML = Boolean(21 > 15);
+}
+","What will be the output of the following JavaScript code?\nfunction myfun()
+{
+document.getElementById ("demo").innerHTML = Boolean(15.00 === 15);
+}
+","What will be the output of the following JavaScript code?\nvar b5 = Boolean('false');
+document.getElementById ("demo").innerHTML =b5;
+","What will be the output of the following JavaScript code?\nfunction myfun()
+{
+var a = "";
+document.getElementById ("demo").innerHTML = Boolean(a);
+}
+","The inner frame within a top-level window can be referred to as _____________","How are windows, tabs, iframes, and frames treated according to client-side javascript?","Each tab in the single web browser window is called as ____________","When will the browser invoke the handler?","What will be printed in the console on execution of the following JS code:\nvar array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+var myArr= array.filter(v => v % 3 === 0);
+
+console.log(myArr);
+","What will be printed in the console on execution of the below code?\nvar materials = [
+'Hydrogen',
+'Helium',
+'Lithium',
+'Beryllium'
+];
+
+console.log(materials.map (material => material.length));
+
+","This servlet first tries to retrieve the current session ID using ","The ______________ is also added to a new help URL that invokes the Help servlet","_______ request is secured because data is not exposed in URL bar","______ request cannot be bookmarked"," In ___________second request will be ignored until response of first request is delivered","_____ request is less efficient and used less than ____","Servlet Interface provides _____ life cycle methods that are used to initialize the servlet, to service the requests, and to destroy the servlet ","_________is invoked only once and indicates that servlet is being destroyed.","________initializes the servlet.","________provides response for the incoming request. ","__________returns the object of ServletConfig","______returns information about servlet such as writer, copyright, version etc.","After invoking the _________ method, Servlet comes in the ready state","_______ is stored in the cache of the browser","___________is removed each time when user closes the browser","________is not removed each time when user closes the browser.","Only _____ information can be set in Cookie object","____________ can be used for retrieving information from a database","The Date class is available in ___________ package.","______ is an interface on top of Servlets","A JSP program is compiled into a _____________ before execution. ","One of the key advantage is we can build __________ using JSP API ","Which one is not a data type in PHP?","The range of integers must lie between ___________?","How many value does Boolean data type hold?","Objects are defined as instances of user defined classes that can hold ____________?","What will be the output of the following PHP code?\n
+<?php 
+  
+if(TRUE) 
+    echo "This condition is TRUE"; 
+if(FALSE) 
+    echo "This condition is not TRUE"; 
+?>
+","What will be the output of the following PHP code?\n
+<?php 
+$lfc = NULL; 
+echo $lfc; 
+?>
+","What will be the output of the following PHP code?\n
+<?php 
+$x1 = 10.58;  
+$x2 = 21.18;  
+  
+$sum = $x1 + $x2; 
+  
+echo $sum; 
+?>
+","What will be the output of the following PHP code?\n
+<?php 
+$intArray = array( 10, 20 , 30); 
+  
+echo "First Element: $intArray[3]
+"; 
+?>
+","How many types of functions are available in php?","Which of the following is not a built-in function in php ?","Why should we use functions?","A function name always begins with the keyword _________.","A function name cannot start with a ____","A function name is not case-sensitive?","A function name is not case-sensitive?\n
+<?php 
+  
+function funclfc()  
+{ 
+    echo "This is letsfindcourse"; 
+} 
+  
+// Calling the function 
+funclfc(); 
+  
+?>
+",". A function name is not case-sensitive?\n
+<?php 
+
+function prolfc($num1, $num2, $num3)  
+{ 
+    $mul = $num1 * $num2 * $num3; 
+    echo "The product is $mul"; 
+} 
+
+
+prolfc(1, 2, 3, 4); 
+  
+?>
+","Type Hinting was introduced in which version of PHP?","A function in PHP which starts with double underscore is known as __________.","______________a web document which adopts certain standards.","___________ can be used for form validation","____________ community that provides a powerful infrastructure to write reusable, customizable and extensible ASP.NET AJAX extenders ","In XMLHttpRequest object, when readystate is 0 it means ","In XMLHttpRequest object, when readystate is 1 it means ","Simple Object Access Protocol","_____________ is the exception while invoking web services","WSDL stands for ___________","_____________ ready Open source JavaScript libraries available for use ","You can use Firefox browser with an add-on called as _____________ to debug all Ajax calls","The ____________ object is used to exchange data with a server behind the scenes.","XMLHttpRequest Object, abort() method ________________","XMLHttpRequest Object, getAllResponseHeaders() method ________________","_____________ property returns the response data as a string","_____________ property returns the response data as XML data","____________ property returns the status-number ","Publishing a web service involves creating a ______________","____________ is an XML-based registry for business internet services","______________ provides the freedom for a developers to choose whatever the technology they want to use for development.","Web service is _____________"],
+  "Tags (enter comma separated values, this allows you to search questions from the question bank)":["MCQ 1","MCQ 2","MCQ 3","MCQ 4","MCQ 5","MCQ 6","MCQ 7","MCQ 8","MCQ 9","MCQ 10","MCQ 11","MCQ 12","MCQ 13","MCQ 14","MCQ 15","MCQ 16","MCQ 17","MCQ 18","MCQ 19","MCQ 20","MCQ 21","MCQ 22","MCQ 23","MCQ 24","MCQ 25","MCQ 26","MCQ 27","MCQ 28","MCQ 29","MCQ 30","MCQ 31","MCQ 32","MCQ 33","MCQ 34","MCQ 35","MCQ 36","MCQ 37","MCQ 38","MCQ 39","MCQ 40","MCQ 41","MCQ 42","MCQ 43","MCQ 44","MCQ 45","MCQ 46","MCQ 47","MCQ 48","MCQ 49","MCQ 50","MCQ 51","MCQ 52","MCQ 53","MCQ 54","MCQ 55","MCQ 56","MCQ 57","MCQ 58","MCQ 59","MCQ 60","MCQ 61","MCQ 62","MCQ 63","MCQ 64","MCQ 65","MCQ 66","MCQ 67","MCQ 68","MCQ 69","MCQ 70","MCQ 71","MCQ 72","MCQ 73","MCQ 74","MCQ 75","MCQ 76","MCQ 77","MCQ 78","MCQ 79","MCQ 80","MCQ 81","MCQ 82","MCQ 83","MCQ 84","MCQ 85","MCQ 86","MCQ 87","MCQ 88","MCQ 89","MCQ 90","MCQ 91","MCQ 92","MCQ 93","MCQ 94","MCQ 95","MCQ 96","MCQ 97","MCQ 98","MCQ 99","MCQ 100"],
+  "Difficulty":["easy","medium","easy","easy","easy","hard","easy","easy","medium","easy","easy","easy","hard","hard","easy","medium","easy","hard","easy","easy","medium","medium","hard","medium","easy","easy","easy","medium","medium","medium","hard","easy","hard","hard","hard","easy","hard","medium","easy","easy","easy","medium","easy","easy","easy","medium","easy","hard","easy","easy","medium","medium","medium","medium","easy","easy","easy","easy","easy","easy","hard","hard","hard","easy","easy","easy","easy","easy","easy","easy","easy","easy","medium","medium","medium","medium","medium","hard","hard","hard","hard","easy","easy","easy","easy","hard","hard","medium","hard","easy","easy","easy","hard","medium","medium","easy","easy","easy","hard","hard"],
+  "Choice1 - mandatory":["web page","Web Server","Web Server","Web Server","Web Server","Web Server","Protocols","Protocols","Protocols","Protocols","Protocols","Protocols","Electronic mail","SITP","Electronic mail","SITP","Electronic mail","the reason phrase"," GET "," GET ","A. /.*[A-Z].*/.test(password) && /.*[0-9].*/.test(password)","0","modify()","Head","A. 223.123","A. text==pattern","A. Returns [","A. true","A. true","A. true","A. true","A. true","A. true","A. true","parent(parent)",". They are all browsing contexts","Browsing context","Program begins","A. myArr","A. [8, 6, 7, 9]","modify()","modify","get","get","get","post,get","5","parent(parent)","parent(parent)","public void service(ServletRequest request,ServletResponse response)","public void service(ServletRequest request,ServletResponse response)","public void service(ServletRequest request,ServletResponse response)","init() ","init() ","Non-persistent cookie","Non-persistent cookie","textual","init() ","java.util","JSP","Non-persistent cookie","Non-persistent cookie","A. Resources","A. -2^15 to 2^15.","A. 1","A. values","A. This condition is TRUE","A. 0","A. 31","A. First Element: 10","A. 5","A. print_r()","A. Reusability","A. fun","A. alphabet","TRUE","This is lfc","24","PHP 5","Magic Function","AJAX","AJAX","AJAX","AJAX","AJAX","SOAC","JAXRPCException","Web Service Description Language","Jquery","Jquery","AJAX","Cancels the current request","Cancels the current request","Cancels the current request","Cancels the current request","status","Cancels the current request","UDDI","Interoperability","Cancels the current request"],
+  "Choice2 - mandatory":["Client","Client","Uniform Resource Locator","Uniform Resource Locator","Uniform Resource Locator","Uniform Resource Locator","Uniform Resource Locator","signalled","Uniform Resource Locator","Uniform Resource Locator","Uniform Resource Locator","server","server","SMTP","server","SMTP","server","server","server","POST","B. /.*[A-Z].*/.test(password) || /.*[0-9].*/.test(password)","hello","b) assign()","b) Element","B. 22.123","B. text.equals(pattern)","B. Returns [","B. false","B. false","B. false","B. false","B. false","B. false","B. false","B. parent.parent","B. They are all browsing information","B. Browser Information","B. Any event occurs","B. [3, 6, 9, 12, 15]","B. 4","getPathInfo()","getPathInfo","post","post","post","get,post","6","public void destroy()","public void destroy()","public void destroy()","public ServletConfig getServletConfig()","public ServletConfig getServletConfig()","parent(parent)","parent(parent)","Persistent cookie","Persistent cookie","image","parent(parent)","javax.servlet","getPathInfo","Java servlet","Java servlet","B. Objects","B. -2^16 to 2^16.","B. 2","B. functions","B. This condition is not TRUE","B. Null","B. 32","B. First Element: 20","B. 4","B. fopen()","B. Easier error detection","B. def","B. underscore","B. False","B. This is letsfindcourse","8","PHP 5.1","Inbuilt Function","ASP.NET AJAX Control Toolkit","ASP.NET AJAX Control Toolkit","ASP.NET AJAX Control Toolkit","request not initiated","request not initiated","SOAP ","IOException","request not initiated","request not initiated","Firebug","request not initiated","request not initiated","request not initiated","request not initiated","responseXML","responseXML","software artifact ","request not initiated","request not initiated","request not initiated"],
+  "Choice3":["Browser","Browser","Browser","Client-Server paradigm","Client-Server paradigm","Client-Server paradigm","Client-Server paradigm","Client-Server paradigm","Internet protocol ","Client-Server paradigm","browser","Client-Server paradigm","Client-Server paradigm","SMTRP","Client-Server paradigm","HTTP","Client-Server paradigm","Client-Server paradigm","Client-Server paradigm","Client-Server paradigm","C. /.*[A-Z][0-9].*/.test(password)","h2","c) replace()","c) Error","C. 223.12","C. text.test(pattern)","C. Returns [1,2,3,4,5,6,7,8,9]","C. undefined","C. undefined","C. undefined","C. undefined","C. undefined","C. undefined","C. undefined","C. parent*parent","C. They are all Window contexts","C. Both Browser Information & Browsing context","C. Specified event occurs","C. [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]","C. [4]","c) replace()","session ID","","","","","4","public void init(ServletConfig config)","public void init(ServletConfig config)","public void init(ServletConfig config)","public void init(ServletConfig config)","public void init(ServletConfig config)","public void destroy()","Cookie","","","video","Cookie","servlet.*","session ID","JSP tags","JSP tags","C. Null","C. -2^31 to 2^31.","C. 3","C. both values and functions","C. No Output","C. No Output","C. 31.00","C. First Element: 30","C. 3","C. fclosed()","C. Easily maintained","C. function","C. number","","","6","PHP 5.3","Default Function","XMLHttpRequest","XMLHttpRequest","XMLHttpRequest","XMLHttpRequest","server connection established","SIAP","RPCException","server connection established","server connection established","server connection established","XMLHttpRequest","XMLHttpRequest","XMLHttpRequest","responseText","responseText","responseText","XMLHttpRequest","XMLHttpRequest","XMLHttpRequest","Interoperable"],
+  "Choice4":["Protocol","Website","Website","Website","server process","The internet","The internet","The internet","The internet","hypertext transfer protocol ","hypertext transfer protocol ","hypertext transfer protocol ","hypertext transfer protocol ","SIMPT","World Wide Web","SIMPT","World Wide Web","World Wide Web","World Wide Web","World Wide Web","D. None of the above","2","d) remove()","d) Undefined","D. 2.2","D. pattern.test(text)","D. Throws an exception","D. l","D. l","D. l","D. l","D. l","D. l","D. l","D. parent/parent","D. They are all Window objects","D. Browser Log","D. None of the above","D. [1, 2, 4, 5, 7, 8, 10, 11, 13, 14]","D. 8, 6, 7, 9","d) remove()","remove","","","","","3","public String getServletInfo()","public String getServletInfo()","public String getServletInfo()","public String getServletInfo()","public String getServletInfo()","public void init(ServletConfig config)","public void init(ServletConfig config)","","","","JSP tags","java.util.servlet","remove","Cookie","custom tags","D. Void","D. -2^32 to 2^32.","D. 4","D. None of the above","D. Error","D. Error","D. 31.76","D. First Element:","D. 2","D. gettype()","D. All of the above","D. None of the above","D. Both C and B","","","Error","PHP 5.4","User Defined Function","partial-page rendering","partial-page rendering","ASP.NET AJAX","partial-page rendering","partial-page rendering","SIAP","IPException","partial-page rendering","partial-page rendering","partial-page rendering","partial-page rendering","partial-page rendering","Returns header information","Returns header information","Returns header information","Returns header information","Returns header information","Returns header information","Returns header information","Returns header information"],
+  "Choice5":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  "Correct":[1,4,2,3,4,4,1,2,3,4,3,2,1,2,4,3,2,2,1,2,2,4,3,1,3,4,2,2,1,1,1,2,1,2,2,1,1,3,2,1,2,3,2,2,1,1,4,2,3,1,2,4,1,3,1,2,1,0,1,0,2,4,4,3,2,3,1,3,4,4,4,3,4,3,3,1,2,3,1,1,1,1,4,2,3,2,1,1,1,2,3,1,4,3,2,1,2,1,1,3],
+  }
