@@ -75,19 +75,26 @@ var rr={
        <div className="hme">
 <Input type="file" onChange={this.inpu}></Input>
 <Button onClick={this.hh}>click</Button>
-      <List
-    itemLayout="horizontal"
-    dataSource={this.state.z}
-    renderItem={item => (
-      <List.Item>
-        <List.Item.Meta
-          title={<p>{item.question}</p>}
-          description={<p><font color="red">{item.option1r[(item.crt)-1]}</font></p>}
-        />
-        <div>{item.crt}</div>
-      </List.Item>
-    )}
-  />
+   {this.state.z.map(item => (  
+          <div>
+          <div>  
+            {item.question}  
+          </div>
+          <ul>
+          <li>{item.option1r[0]}</li>
+          <li>{item.option1r[1]}</li>
+          <li>{item.option1r[2]}</li>
+          <li>{item.option1r[3]}</li>
+          </ul> 
+          <p> 
+            Correct -Answer :{<p><font color="red">{item.option1r[(item.crt)-1]}</font></p>}  
+          </p>
+          <li>  
+            Option: {item.crt}  
+          </li>
+<hr/>
+          </div>
+        ))}
        </div>
       </div>
     )
